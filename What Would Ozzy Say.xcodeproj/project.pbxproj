@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A9B84E30739C6C937E8D3B1 /* Pods_What_Would_Ozzy_Say.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9390762A60456A60AEE1371 /* Pods_What_Would_Ozzy_Say.framework */; };
+		90AE823FE30583AB95E423F3 /* Pods_What_Would_Ozzy_SayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5973E15C51CFCB594547A5 /* Pods_What_Would_Ozzy_SayTests.framework */; };
 		B8900DA2209CD4A500056710 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8900DA1209CD4A500056710 /* AppDelegate.swift */; };
 		B8900DA4209CD4A500056710 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8900DA3209CD4A500056710 /* ViewController.swift */; };
 		B8900DA7209CD4A500056710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8900DA5209CD4A500056710 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		B8900DAC209CD4A600056710 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8900DAA209CD4A600056710 /* LaunchScreen.storyboard */; };
 		B8900DB7209CD4A600056710 /* What_Would_Ozzy_SayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8900DB6209CD4A600056710 /* What_Would_Ozzy_SayTests.swift */; };
 		B8900DC2209CD4A600056710 /* What_Would_Ozzy_SayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8900DC1209CD4A600056710 /* What_Would_Ozzy_SayUITests.swift */; };
+		D6816B585B28A201FB800F92 /* Pods_What_Would_Ozzy_SayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BFD2C3EBDFBC5A50B99BDFD /* Pods_What_Would_Ozzy_SayUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		060594A2FE01FD7BA7386D4F /* Pods-What Would Ozzy SayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What Would Ozzy SayTests.debug.xcconfig"; path = "Target Support Files/Pods-What Would Ozzy SayTests/Pods-What Would Ozzy SayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		121A8ABB8F9567AB52C1A28F /* Pods-What Would Ozzy SayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What Would Ozzy SayTests.release.xcconfig"; path = "Target Support Files/Pods-What Would Ozzy SayTests/Pods-What Would Ozzy SayTests.release.xcconfig"; sourceTree = "<group>"; };
+		1F5973E15C51CFCB594547A5 /* Pods_What_Would_Ozzy_SayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What_Would_Ozzy_SayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6854743F42C8D3D0963F4C11 /* Pods-What Would Ozzy SayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What Would Ozzy SayUITests.debug.xcconfig"; path = "Target Support Files/Pods-What Would Ozzy SayUITests/Pods-What Would Ozzy SayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		820D290FFBAB10CEC399DB58 /* Pods-What Would Ozzy SayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What Would Ozzy SayUITests.release.xcconfig"; path = "Target Support Files/Pods-What Would Ozzy SayUITests/Pods-What Would Ozzy SayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BFD2C3EBDFBC5A50B99BDFD /* Pods_What_Would_Ozzy_SayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What_Would_Ozzy_SayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC080ED8158748779AD4B6F /* Pods-What Would Ozzy Say.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What Would Ozzy Say.debug.xcconfig"; path = "Target Support Files/Pods-What Would Ozzy Say/Pods-What Would Ozzy Say.debug.xcconfig"; sourceTree = "<group>"; };
 		B8900D9E209CD4A500056710 /* What Would Ozzy Say.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What Would Ozzy Say.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8900DA1209CD4A500056710 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8900DA3209CD4A500056710 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		B8900DBD209CD4A600056710 /* What Would Ozzy SayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "What Would Ozzy SayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8900DC1209CD4A600056710 /* What_Would_Ozzy_SayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_Would_Ozzy_SayUITests.swift; sourceTree = "<group>"; };
 		B8900DC3209CD4A600056710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C788CD3687554D2DC54164 /* Pods-What Would Ozzy Say.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-What Would Ozzy Say.release.xcconfig"; path = "Target Support Files/Pods-What Would Ozzy Say/Pods-What Would Ozzy Say.release.xcconfig"; sourceTree = "<group>"; };
+		F9390762A60456A60AEE1371 /* Pods_What_Would_Ozzy_Say.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_What_Would_Ozzy_Say.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9B84E30739C6C937E8D3B1 /* Pods_What_Would_Ozzy_Say.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90AE823FE30583AB95E423F3 /* Pods_What_Would_Ozzy_SayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6816B585B28A201FB800F92 /* Pods_What_Would_Ozzy_SayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D78FD963EFE20313689A553 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFC080ED8158748779AD4B6F /* Pods-What Would Ozzy Say.debug.xcconfig */,
+				D3C788CD3687554D2DC54164 /* Pods-What Would Ozzy Say.release.xcconfig */,
+				060594A2FE01FD7BA7386D4F /* Pods-What Would Ozzy SayTests.debug.xcconfig */,
+				121A8ABB8F9567AB52C1A28F /* Pods-What Would Ozzy SayTests.release.xcconfig */,
+				6854743F42C8D3D0963F4C11 /* Pods-What Would Ozzy SayUITests.debug.xcconfig */,
+				820D290FFBAB10CEC399DB58 /* Pods-What Would Ozzy SayUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B8900D95209CD4A500056710 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,8 @@
 				B8900DB5209CD4A600056710 /* What Would Ozzy SayTests */,
 				B8900DC0209CD4A600056710 /* What Would Ozzy SayUITests */,
 				B8900D9F209CD4A500056710 /* Products */,
+				4D78FD963EFE20313689A553 /* Pods */,
+				F2CF910BAA45608AC1982355 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +156,16 @@
 			path = "What Would Ozzy SayUITests";
 			sourceTree = "<group>";
 		};
+		F2CF910BAA45608AC1982355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9390762A60456A60AEE1371 /* Pods_What_Would_Ozzy_Say.framework */,
+				1F5973E15C51CFCB594547A5 /* Pods_What_Would_Ozzy_SayTests.framework */,
+				9BFD2C3EBDFBC5A50B99BDFD /* Pods_What_Would_Ozzy_SayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8900DC6209CD4A600056710 /* Build configuration list for PBXNativeTarget "What Would Ozzy Say" */;
 			buildPhases = (
+				838A301343FA6723219889A5 /* [CP] Check Pods Manifest.lock */,
 				B8900D9A209CD4A500056710 /* Sources */,
 				B8900D9B209CD4A500056710 /* Frameworks */,
 				B8900D9C209CD4A500056710 /* Resources */,
+				FD0C0941867277915C58511A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8900DC9209CD4A600056710 /* Build configuration list for PBXNativeTarget "What Would Ozzy SayTests" */;
 			buildPhases = (
+				66C437BBCA2DDDE3F1772D29 /* [CP] Check Pods Manifest.lock */,
 				B8900DAE209CD4A600056710 /* Sources */,
 				B8900DAF209CD4A600056710 /* Frameworks */,
 				B8900DB0209CD4A600056710 /* Resources */,
@@ -167,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8900DCC209CD4A600056710 /* Build configuration list for PBXNativeTarget "What Would Ozzy SayUITests" */;
 			buildPhases = (
+				AA401215832268194810FCA2 /* [CP] Check Pods Manifest.lock */,
 				B8900DB9209CD4A600056710 /* Sources */,
 				B8900DBA209CD4A600056710 /* Frameworks */,
 				B8900DBB209CD4A600056710 /* Resources */,
@@ -250,6 +295,97 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66C437BBCA2DDDE3F1772D29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-What Would Ozzy SayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838A301343FA6723219889A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-What Would Ozzy Say-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA401215832268194810FCA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-What Would Ozzy SayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD0C0941867277915C58511A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-What Would Ozzy Say/Pods-What Would Ozzy Say-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AudioPlayerSwift/AudioPlayer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AudioPlayer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-What Would Ozzy Say/Pods-What Would Ozzy Say-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8900D9A209CD4A500056710 /* Sources */ = {
@@ -428,6 +564,7 @@
 		};
 		B8900DC7209CD4A600056710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC080ED8158748779AD4B6F /* Pods-What Would Ozzy Say.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +583,7 @@
 		};
 		B8900DC8209CD4A600056710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C788CD3687554D2DC54164 /* Pods-What Would Ozzy Say.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +602,7 @@
 		};
 		B8900DCA209CD4A600056710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060594A2FE01FD7BA7386D4F /* Pods-What Would Ozzy SayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +624,7 @@
 		};
 		B8900DCB209CD4A600056710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 121A8ABB8F9567AB52C1A28F /* Pods-What Would Ozzy SayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +646,7 @@
 		};
 		B8900DCD209CD4A600056710 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6854743F42C8D3D0963F4C11 /* Pods-What Would Ozzy SayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +667,7 @@
 		};
 		B8900DCE209CD4A600056710 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820D290FFBAB10CEC399DB58 /* Pods-What Would Ozzy SayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

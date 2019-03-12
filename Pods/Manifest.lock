@@ -1,0 +1,16 @@
+PODS:
+  - AudioPlayerSwift (1.6.1)
+
+DEPENDENCIES:
+  - AudioPlayerSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AudioPlayerSwift
+
+SPEC CHECKSUMS:
+  AudioPlayerSwift: 90b1bbd228bde3eca6bc59320091c3672486328d
+
+PODFILE CHECKSUM: 3a3b7909c05dfa6e33d33e139d11c33d1b4aab14
+
+COCOAPODS: 1.6.1

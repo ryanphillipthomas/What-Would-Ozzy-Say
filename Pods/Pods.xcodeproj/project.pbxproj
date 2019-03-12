@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0440F337BC31BA0FD3DFE9E9634D8388 /* AudioPlayerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3712BEB55F667A5D74796F1E1A78FBE /* AudioPlayerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2603ADA313AD69849A1FB28338C29DCE /* Pods-What Would Ozzy Say-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B5501640B3D72FFDBDF02A4E6E2DDBA /* Pods-What Would Ozzy Say-dummy.m */; };
+		2BDF41DE8AB26556FFA3B785ABFA6C55 /* Pods-What Would Ozzy SayUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3183CC065C386AE4CD1E31E68A9C6D08 /* Pods-What Would Ozzy SayUITests-dummy.m */; };
+		4FA750B665BA1037231DBD29D43302ED /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937227A9410FC0FA74E79368A014A2A /* AudioPlayer.swift */; };
+		52B0F94DDA4B633E381B9812503F5DA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5C1C69F0E7E2A63368DD0EF30CF11112 /* Pods-What Would Ozzy SayUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B3CCA32679E1D13B205C4D8DD328CDC /* Pods-What Would Ozzy SayUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6259EF9697D626367BE11A952B9DE773 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		97E633F93A2609FD999C416242836646 /* Pods-What Would Ozzy SayTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B79352FC3C6493D0CE0F09DEB02D6 /* Pods-What Would Ozzy SayTests-dummy.m */; };
+		C7307C0238466E6A0611F101B8730CA7 /* Pods-What Would Ozzy Say-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 631CDBBE0AA5A04B79C5BC28D40503A7 /* Pods-What Would Ozzy Say-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D99BAF19B8B06F6EB9C7541D0B10ABEC /* AudioPlayerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14845AEA4F3D826FFFDBB8C9274E843D /* AudioPlayerSwift-dummy.m */; };
+		E9E3330E00E94258AC18B924BCEE658E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F49B031785118601C786DD2FF387BBCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F6487377642DF91D11165E333E3BC12E /* Pods-What Would Ozzy SayTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B44101825AB2DE358D64AC0654BA637 /* Pods-What Would Ozzy SayTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A71F1560DC6E14FB4CD2E8C1B1D016E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DE154C0C0DBC8D5504421F244982C92;
+			remoteInfo = AudioPlayerSwift;
+		};
+		459A8D861F46F7F06E178C220C693A13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E4C25D8396499C3EAB67C621432C78;
+			remoteInfo = "Pods-What Would Ozzy Say";
+		};
+		EC6B9A1B08251A140D4C33C453B6BC07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99E4C25D8396499C3EAB67C621432C78;
+			remoteInfo = "Pods-What Would Ozzy Say";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053536241E96428FBBBE6C512CD4883A /* Pods-What Would Ozzy SayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-What Would Ozzy SayTests.release.xcconfig"; sourceTree = "<group>"; };
+		07D727209B4DC7843C795F4848BC3AB9 /* Pods-What Would Ozzy SayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-What Would Ozzy SayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		09EF09F0BD4C572B211DCB221EA0706D /* Pods-What Would Ozzy Say.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-What Would Ozzy Say.modulemap"; sourceTree = "<group>"; };
+		14845AEA4F3D826FFFDBB8C9274E843D /* AudioPlayerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AudioPlayerSwift-dummy.m"; sourceTree = "<group>"; };
+		20FC12B89B14CCD223FE4AB242E035AE /* Pods-What Would Ozzy Say-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-What Would Ozzy Say-Info.plist"; sourceTree = "<group>"; };
+		2A3020AFEBA7AA4F5F5C65639C209A90 /* Pods-What Would Ozzy Say.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-What Would Ozzy Say.release.xcconfig"; sourceTree = "<group>"; };
+		2B5501640B3D72FFDBDF02A4E6E2DDBA /* Pods-What Would Ozzy Say-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-What Would Ozzy Say-dummy.m"; sourceTree = "<group>"; };
+		3183CC065C386AE4CD1E31E68A9C6D08 /* Pods-What Would Ozzy SayUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-What Would Ozzy SayUITests-dummy.m"; sourceTree = "<group>"; };
+		34E2CB36B986445559DF86D4DEF27F0F /* Pods-What Would Ozzy SayUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-What Would Ozzy SayUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		379E3FDF838B228CBBE103F1E4CD55E6 /* Pods-What Would Ozzy Say-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-What Would Ozzy Say-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F53A4924FF16F2B038CAD86F145412D /* Pods-What Would Ozzy SayTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-What Would Ozzy SayTests.modulemap"; sourceTree = "<group>"; };
+		4B44101825AB2DE358D64AC0654BA637 /* Pods-What Would Ozzy SayTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-What Would Ozzy SayTests-umbrella.h"; sourceTree = "<group>"; };
+		504C286368DACBF387501B96D6B245AD /* Pods-What Would Ozzy SayTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-What Would Ozzy SayTests-Info.plist"; sourceTree = "<group>"; };
+		5347780A6EF124279C4AE018D35CEE7A /* Pods-What Would Ozzy SayUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-What Would Ozzy SayUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B3CCA32679E1D13B205C4D8DD328CDC /* Pods-What Would Ozzy SayUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-What Would Ozzy SayUITests-umbrella.h"; sourceTree = "<group>"; };
+		5E4B91CF8B47FB4B3B9BF2E6C6D706E7 /* Pods-What Would Ozzy Say-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-What Would Ozzy Say-frameworks.sh"; sourceTree = "<group>"; };
+		5F5A4FB843C3102DB8B3D29E5A39AD7E /* Pods-What Would Ozzy Say.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-What Would Ozzy Say.debug.xcconfig"; sourceTree = "<group>"; };
+		631CDBBE0AA5A04B79C5BC28D40503A7 /* Pods-What Would Ozzy Say-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-What Would Ozzy Say-umbrella.h"; sourceTree = "<group>"; };
+		68BD0E3D075C6A62C359E8B3F63ADE68 /* Pods-What Would Ozzy Say-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-What Would Ozzy Say-acknowledgements.markdown"; sourceTree = "<group>"; };
+		69B8F3361738A790DE6730FFC81FB191 /* AudioPlayerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AudioPlayerSwift-Info.plist"; sourceTree = "<group>"; };
+		72A30E759A2F5A61C9588D3F36161BEC /* AudioPlayerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioPlayerSwift-prefix.pch"; sourceTree = "<group>"; };
+		7D8B79352FC3C6493D0CE0F09DEB02D6 /* Pods-What Would Ozzy SayTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-What Would Ozzy SayTests-dummy.m"; sourceTree = "<group>"; };
+		8A196C19256F5ED2B47CF392019A6958 /* Pods_What_Would_Ozzy_SayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_What_Would_Ozzy_SayTests.framework; path = "Pods-What Would Ozzy SayTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C252F5AB0E5362A14CB2373C1CEBBA1 /* Pods_What_Would_Ozzy_SayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_What_Would_Ozzy_SayUITests.framework; path = "Pods-What Would Ozzy SayUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931AB4A9EE690540AB58C38726566314 /* AudioPlayerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AudioPlayerSwift.modulemap; sourceTree = "<group>"; };
+		967C3423BB789FB2128408BBF0C0729E /* AudioPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AudioPlayer.framework; path = AudioPlayerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		99EC5DFB60E4F0644961447A30DBDF4B /* Pods-What Would Ozzy SayUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-What Would Ozzy SayUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5C661FB1265F129753D26664CF77225 /* Pods-What Would Ozzy SayUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-What Would Ozzy SayUITests.modulemap"; sourceTree = "<group>"; };
+		BF398800A2369B753488FB182D18A9F2 /* Pods-What Would Ozzy SayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-What Would Ozzy SayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C2DFAC74D724F64F419B059E1F033728 /* Pods_What_Would_Ozzy_Say.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_What_Would_Ozzy_Say.framework; path = "Pods-What Would Ozzy Say.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3712BEB55F667A5D74796F1E1A78FBE /* AudioPlayerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioPlayerSwift-umbrella.h"; sourceTree = "<group>"; };
+		C4AEF2DECC6434B1A767EF9DD44F7BD1 /* Pods-What Would Ozzy SayTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-What Would Ozzy SayTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CAE7854C3F16D05D6F0A6D15C89FFFD8 /* Pods-What Would Ozzy SayTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-What Would Ozzy SayTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA04D86694E8AECC92E343FB86F5CB7C /* Pods-What Would Ozzy SayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-What Would Ozzy SayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA57FCF525BCF728E22B5322640E93A7 /* AudioPlayerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AudioPlayerSwift.xcconfig; sourceTree = "<group>"; };
+		E937227A9410FC0FA74E79368A014A2A /* AudioPlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AudioPlayer.swift; path = Sources/AudioPlayer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A0CD0D91850BA3DD3F0D979CF2E79E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49B031785118601C786DD2FF387BBCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3376FF77EE84A995643F96D355E39E45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6259EF9697D626367BE11A952B9DE773 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC722B57A4663CAFBB262C88ABFBDE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E3330E00E94258AC18B924BCEE658E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD2FEE85FEDF3FE7450D4B609EAC4C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B0F94DDA4B633E381B9812503F5DA3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036919BF1C2CECEC3E333141953ADF34 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E29511F2C4C3A2E884ED4B2654DFF3B /* Pods-What Would Ozzy Say */,
+				25F29DDCC7365DE6FDCBF55E35AEBC25 /* Pods-What Would Ozzy SayTests */,
+				EDBA1D606ED3F6E037A8F6EC234868AB /* Pods-What Would Ozzy SayUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0FA47666121385557ED1C1031829650E /* AudioPlayerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E937227A9410FC0FA74E79368A014A2A /* AudioPlayer.swift */,
+				9D93B6AF97B0F8B22F11F4745D687E2C /* Support Files */,
+			);
+			name = AudioPlayerSwift;
+			path = AudioPlayerSwift;
+			sourceTree = "<group>";
+		};
+		25F29DDCC7365DE6FDCBF55E35AEBC25 /* Pods-What Would Ozzy SayTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F53A4924FF16F2B038CAD86F145412D /* Pods-What Would Ozzy SayTests.modulemap */,
+				CAE7854C3F16D05D6F0A6D15C89FFFD8 /* Pods-What Would Ozzy SayTests-acknowledgements.markdown */,
+				C4AEF2DECC6434B1A767EF9DD44F7BD1 /* Pods-What Would Ozzy SayTests-acknowledgements.plist */,
+				7D8B79352FC3C6493D0CE0F09DEB02D6 /* Pods-What Would Ozzy SayTests-dummy.m */,
+				504C286368DACBF387501B96D6B245AD /* Pods-What Would Ozzy SayTests-Info.plist */,
+				4B44101825AB2DE358D64AC0654BA637 /* Pods-What Would Ozzy SayTests-umbrella.h */,
+				07D727209B4DC7843C795F4848BC3AB9 /* Pods-What Would Ozzy SayTests.debug.xcconfig */,
+				053536241E96428FBBBE6C512CD4883A /* Pods-What Would Ozzy SayTests.release.xcconfig */,
+			);
+			name = "Pods-What Would Ozzy SayTests";
+			path = "Target Support Files/Pods-What Would Ozzy SayTests";
+			sourceTree = "<group>";
+		};
+		7E29511F2C4C3A2E884ED4B2654DFF3B /* Pods-What Would Ozzy Say */ = {
+			isa = PBXGroup;
+			children = (
+				09EF09F0BD4C572B211DCB221EA0706D /* Pods-What Would Ozzy Say.modulemap */,
+				68BD0E3D075C6A62C359E8B3F63ADE68 /* Pods-What Would Ozzy Say-acknowledgements.markdown */,
+				379E3FDF838B228CBBE103F1E4CD55E6 /* Pods-What Would Ozzy Say-acknowledgements.plist */,
+				2B5501640B3D72FFDBDF02A4E6E2DDBA /* Pods-What Would Ozzy Say-dummy.m */,
+				5E4B91CF8B47FB4B3B9BF2E6C6D706E7 /* Pods-What Would Ozzy Say-frameworks.sh */,
+				20FC12B89B14CCD223FE4AB242E035AE /* Pods-What Would Ozzy Say-Info.plist */,
+				631CDBBE0AA5A04B79C5BC28D40503A7 /* Pods-What Would Ozzy Say-umbrella.h */,
+				5F5A4FB843C3102DB8B3D29E5A39AD7E /* Pods-What Would Ozzy Say.debug.xcconfig */,
+				2A3020AFEBA7AA4F5F5C65639C209A90 /* Pods-What Would Ozzy Say.release.xcconfig */,
+			);
+			name = "Pods-What Would Ozzy Say";
+			path = "Target Support Files/Pods-What Would Ozzy Say";
+			sourceTree = "<group>";
+		};
+		88701256963A23C3B0C00818C805CE4E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA47666121385557ED1C1031829650E /* AudioPlayerSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D93B6AF97B0F8B22F11F4745D687E2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				931AB4A9EE690540AB58C38726566314 /* AudioPlayerSwift.modulemap */,
+				DA57FCF525BCF728E22B5322640E93A7 /* AudioPlayerSwift.xcconfig */,
+				14845AEA4F3D826FFFDBB8C9274E843D /* AudioPlayerSwift-dummy.m */,
+				69B8F3361738A790DE6730FFC81FB191 /* AudioPlayerSwift-Info.plist */,
+				72A30E759A2F5A61C9588D3F36161BEC /* AudioPlayerSwift-prefix.pch */,
+				C3712BEB55F667A5D74796F1E1A78FBE /* AudioPlayerSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AudioPlayerSwift";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				88701256963A23C3B0C00818C805CE4E /* Pods */,
+				E9AB36D08DA6389B1D8637FFBC8E41AF /* Products */,
+				036919BF1C2CECEC3E333141953ADF34 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9AB36D08DA6389B1D8637FFBC8E41AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				967C3423BB789FB2128408BBF0C0729E /* AudioPlayer.framework */,
+				C2DFAC74D724F64F419B059E1F033728 /* Pods_What_Would_Ozzy_Say.framework */,
+				8A196C19256F5ED2B47CF392019A6958 /* Pods_What_Would_Ozzy_SayTests.framework */,
+				8C252F5AB0E5362A14CB2373C1CEBBA1 /* Pods_What_Would_Ozzy_SayUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDBA1D606ED3F6E037A8F6EC234868AB /* Pods-What Would Ozzy SayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5C661FB1265F129753D26664CF77225 /* Pods-What Would Ozzy SayUITests.modulemap */,
+				34E2CB36B986445559DF86D4DEF27F0F /* Pods-What Would Ozzy SayUITests-acknowledgements.markdown */,
+				5347780A6EF124279C4AE018D35CEE7A /* Pods-What Would Ozzy SayUITests-acknowledgements.plist */,
+				3183CC065C386AE4CD1E31E68A9C6D08 /* Pods-What Would Ozzy SayUITests-dummy.m */,
+				99EC5DFB60E4F0644961447A30DBDF4B /* Pods-What Would Ozzy SayUITests-Info.plist */,
+				5B3CCA32679E1D13B205C4D8DD328CDC /* Pods-What Would Ozzy SayUITests-umbrella.h */,
+				DA04D86694E8AECC92E343FB86F5CB7C /* Pods-What Would Ozzy SayUITests.debug.xcconfig */,
+				BF398800A2369B753488FB182D18A9F2 /* Pods-What Would Ozzy SayUITests.release.xcconfig */,
+			);
+			name = "Pods-What Would Ozzy SayUITests";
+			path = "Target Support Files/Pods-What Would Ozzy SayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A7644A00A788D90563355A13778509E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7307C0238466E6A0611F101B8730CA7 /* Pods-What Would Ozzy Say-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BDB7F8B649A840C54EC1D9CC1FD0052 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6487377642DF91D11165E333E3BC12E /* Pods-What Would Ozzy SayTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3035E725AF699FFF0E1961BDE96E0486 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0440F337BC31BA0FD3DFE9E9634D8388 /* AudioPlayerSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B1EF36EB6E59F7D99559348EDD8B3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1C69F0E7E2A63368DD0EF30CF11112 /* Pods-What Would Ozzy SayUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2DE154C0C0DBC8D5504421F244982C92 /* AudioPlayerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33AB488E76BE53E0AEE0B3060FCDE2BB /* Build configuration list for PBXNativeTarget "AudioPlayerSwift" */;
+			buildPhases = (
+				3035E725AF699FFF0E1961BDE96E0486 /* Headers */,
+				76B4CF421C7422080E0A614AB493177E /* Sources */,
+				6EC722B57A4663CAFBB262C88ABFBDE1 /* Frameworks */,
+				99FE620D20EE7666AEFEBD871DD2126B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioPlayerSwift;
+			productName = AudioPlayerSwift;
+			productReference = 967C3423BB789FB2128408BBF0C0729E /* AudioPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99E4C25D8396499C3EAB67C621432C78 /* Pods-What Would Ozzy Say */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BD3CD30864D591D269A868A50DAEC01 /* Build configuration list for PBXNativeTarget "Pods-What Would Ozzy Say" */;
+			buildPhases = (
+				2A7644A00A788D90563355A13778509E /* Headers */,
+				03B7F83885B13AF8C8580355D0054932 /* Sources */,
+				3376FF77EE84A995643F96D355E39E45 /* Frameworks */,
+				83ED6ACC9C90166FBF4E30CFF5DF3833 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6CD82930036E8A22A4634BAE01D1F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-What Would Ozzy Say";
+			productName = "Pods-What Would Ozzy Say";
+			productReference = C2DFAC74D724F64F419B059E1F033728 /* Pods_What_Would_Ozzy_Say.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9809DDF62707DC0CE31166894C91DFA /* Pods-What Would Ozzy SayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356D6EC43E890140D484749983247D74 /* Build configuration list for PBXNativeTarget "Pods-What Would Ozzy SayTests" */;
+			buildPhases = (
+				2BDB7F8B649A840C54EC1D9CC1FD0052 /* Headers */,
+				A969E49DD5FAA5E4A537F23D9B444495 /* Sources */,
+				2A0CD0D91850BA3DD3F0D979CF2E79E7 /* Frameworks */,
+				D31D2BF2E0FDAE424322224301479B10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20C7C1211993420BC61B14A42258E90 /* PBXTargetDependency */,
+			);
+			name = "Pods-What Would Ozzy SayTests";
+			productName = "Pods-What Would Ozzy SayTests";
+			productReference = 8A196C19256F5ED2B47CF392019A6958 /* Pods_What_Would_Ozzy_SayTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F767E6A1F374806C4D6C3070551B19EF /* Pods-What Would Ozzy SayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC0A7DEEC5B7FCC2DE6B7ABB7EFCFD9B /* Build configuration list for PBXNativeTarget "Pods-What Would Ozzy SayUITests" */;
+			buildPhases = (
+				D1B1EF36EB6E59F7D99559348EDD8B3E /* Headers */,
+				974CC1DB8CE7FB022632143646A71985 /* Sources */,
+				AD2FEE85FEDF3FE7450D4B609EAC4C2C /* Frameworks */,
+				00775192FBC7EDEADF57E8DC7E48FDD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E65906EA8E04823152764E706129ADE /* PBXTargetDependency */,
+			);
+			name = "Pods-What Would Ozzy SayUITests";
+			productName = "Pods-What Would Ozzy SayUITests";
+			productReference = 8C252F5AB0E5362A14CB2373C1CEBBA1 /* Pods_What_Would_Ozzy_SayUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E9AB36D08DA6389B1D8637FFBC8E41AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DE154C0C0DBC8D5504421F244982C92 /* AudioPlayerSwift */,
+				99E4C25D8396499C3EAB67C621432C78 /* Pods-What Would Ozzy Say */,
+				D9809DDF62707DC0CE31166894C91DFA /* Pods-What Would Ozzy SayTests */,
+				F767E6A1F374806C4D6C3070551B19EF /* Pods-What Would Ozzy SayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00775192FBC7EDEADF57E8DC7E48FDD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83ED6ACC9C90166FBF4E30CFF5DF3833 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99FE620D20EE7666AEFEBD871DD2126B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D31D2BF2E0FDAE424322224301479B10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03B7F83885B13AF8C8580355D0054932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2603ADA313AD69849A1FB28338C29DCE /* Pods-What Would Ozzy Say-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76B4CF421C7422080E0A614AB493177E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA750B665BA1037231DBD29D43302ED /* AudioPlayer.swift in Sources */,
+				D99BAF19B8B06F6EB9C7541D0B10ABEC /* AudioPlayerSwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		974CC1DB8CE7FB022632143646A71985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BDF41DE8AB26556FFA3B785ABFA6C55 /* Pods-What Would Ozzy SayUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A969E49DD5FAA5E4A537F23D9B444495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E633F93A2609FD999C416242836646 /* Pods-What Would Ozzy SayTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E65906EA8E04823152764E706129ADE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-What Would Ozzy Say";
+			target = 99E4C25D8396499C3EAB67C621432C78 /* Pods-What Would Ozzy Say */;
+			targetProxy = 459A8D861F46F7F06E178C220C693A13 /* PBXContainerItemProxy */;
+		};
+		B20C7C1211993420BC61B14A42258E90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-What Would Ozzy Say";
+			target = 99E4C25D8396499C3EAB67C621432C78 /* Pods-What Would Ozzy Say */;
+			targetProxy = EC6B9A1B08251A140D4C33C453B6BC07 /* PBXContainerItemProxy */;
+		};
+		CD6CD82930036E8A22A4634BAE01D1F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AudioPlayerSwift;
+			target = 2DE154C0C0DBC8D5504421F244982C92 /* AudioPlayerSwift */;
+			targetProxy = 1A71F1560DC6E14FB4CD2E8C1B1D016E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		025D33A0B21ED63BF36207EAF0E642CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07D727209B4DC7843C795F4848BC3AB9 /* Pods-What Would Ozzy SayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-What Would Ozzy SayTests/Pods-What Would Ozzy SayTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-What Would Ozzy SayTests/Pods-What Would Ozzy SayTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1991E26B5F4F59934C7BA2FA9B3E35FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 053536241E96428FBBBE6C512CD4883A /* Pods-What Would Ozzy SayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-What Would Ozzy SayTests/Pods-What Would Ozzy SayTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-What Would Ozzy SayTests/Pods-What Would Ozzy SayTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B239F0AA7338CE748EAFE95914A513D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F5A4FB843C3102DB8B3D29E5A39AD7E /* Pods-What Would Ozzy Say.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-What Would Ozzy Say/Pods-What Would Ozzy Say-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-What Would Ozzy Say/Pods-What Would Ozzy Say.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C7D9FC81F470AE33FF86230A663FBDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		82A81B20D5252A8D44947E1668E12CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA57FCF525BCF728E22B5322640E93A7 /* AudioPlayerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift.modulemap";
+				PRODUCT_MODULE_NAME = AudioPlayer;
+				PRODUCT_NAME = AudioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88B87AC433412A43868F73FC27A156CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA57FCF525BCF728E22B5322640E93A7 /* AudioPlayerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/AudioPlayerSwift/AudioPlayerSwift.modulemap";
+				PRODUCT_MODULE_NAME = AudioPlayer;
+				PRODUCT_NAME = AudioPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95CDB1BD3AAEFAFB16FDBEBBACC13B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CCF0F525232F486EE048A89B73669759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF398800A2369B753488FB182D18A9F2 /* Pods-What Would Ozzy SayUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-What Would Ozzy SayUITests/Pods-What Would Ozzy SayUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-What Would Ozzy SayUITests/Pods-What Would Ozzy SayUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF27FE742BCC5689F64F8E0C8CAF0F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A3020AFEBA7AA4F5F5C65639C209A90 /* Pods-What Would Ozzy Say.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-What Would Ozzy Say/Pods-What Would Ozzy Say-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-What Would Ozzy Say/Pods-What Would Ozzy Say.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F6899B99CBAF3396CE6EFFC01242F14B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA04D86694E8AECC92E343FB86F5CB7C /* Pods-What Would Ozzy SayUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-What Would Ozzy SayUITests/Pods-What Would Ozzy SayUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-What Would Ozzy SayUITests/Pods-What Would Ozzy SayUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BD3CD30864D591D269A868A50DAEC01 /* Build configuration list for PBXNativeTarget "Pods-What Would Ozzy Say" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B239F0AA7338CE748EAFE95914A513D /* Debug */,
+				EF27FE742BCC5689F64F8E0C8CAF0F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33AB488E76BE53E0AEE0B3060FCDE2BB /* Build configuration list for PBXNativeTarget "AudioPlayerSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A81B20D5252A8D44947E1668E12CC9 /* Debug */,
+				88B87AC433412A43868F73FC27A156CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356D6EC43E890140D484749983247D74 /* Build configuration list for PBXNativeTarget "Pods-What Would Ozzy SayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				025D33A0B21ED63BF36207EAF0E642CF /* Debug */,
+				1991E26B5F4F59934C7BA2FA9B3E35FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CDB1BD3AAEFAFB16FDBEBBACC13B2E /* Debug */,
+				7C7D9FC81F470AE33FF86230A663FBDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC0A7DEEC5B7FCC2DE6B7ABB7EFCFD9B /* Build configuration list for PBXNativeTarget "Pods-What Would Ozzy SayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6899B99CBAF3396CE6EFFC01242F14B /* Debug */,
+				CCF0F525232F486EE048A89B73669759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
